@@ -46,6 +46,7 @@
 #' m.log$estimates
 #' m.log$var
 #' m.log$n.iter
+#' update
 
 iwls.bnreg <- function (y, X, n = NULL, intercept = FALSE, tol = 1e-07, max.iter = 1000)
 {
